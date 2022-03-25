@@ -1,0 +1,27 @@
+:root {
+    /* text */
+    --fontFamily: "Open Sans";
+    --font-syze: 18px;
+    --line-heigth: 27.12px;
+    /* /text */
+    /* color */
+    --black700: #000000;
+    --green500: #29A28C1C;
+    --green600: #017B65;
+    /* /color */
+    --width-container-normal: 1600px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: var(--fontFamily);
+    line-height: var(--line-heigth);
+}
+
+.container {
+    max-width: var(--width-container-normal);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
